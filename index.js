@@ -55,6 +55,9 @@ inquirer.prompt(QUESTIONS).then( answers => {
 
     fs.mkdirSync(`${CURR_DIR}/${projectName}`);
     createDirectoryProject(templatePath,projectName)
+
+
+    
 })
 
 
